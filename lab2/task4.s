@@ -9,6 +9,7 @@ fill_ram:
           # sets bl to 1
           # increments to 10 (0A)
           # loads into ram+0x50
+          # NOTE: print_ram prints 0a
 
     mov $1, %bl
 

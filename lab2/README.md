@@ -28,6 +28,6 @@ gcc -nostdlib -no-pie print_ram.c task3.s -o task3
 ---
 
 ## Compile Task 4
-gcc -nostdlib -no-pie task4.s -o task4
+gcc -nostdlib -no-pie print_ram.c task4.s -o task4
 ## Run
 ./task4

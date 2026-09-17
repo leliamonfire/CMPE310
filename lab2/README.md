@@ -1,6 +1,6 @@
 # Lab 2
 ## Compile print_hello
-gcc -nostdlib -nostidlib -no-pie print_hello.s -o hello
+gcc -nostdlib -no-pie print_hello.s -o hello
 ## Run
 ./hello
 

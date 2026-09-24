@@ -16,8 +16,8 @@ hamming_distance:
     # use stack to expose answer to print_distance.c for printing
     push %rbp
     mov %rsp, %rbp
-    push %rbx           # save caller's rbx (we use it below)
-    push %r15           # save caller's r15 (we use it below)
+    push %rbx
+    push %r15
 
     #
     mov $1,         %rax    # write
